@@ -1,6 +1,6 @@
 using System;
 
-namespace Tetris
+namespace TetrisDemo
 {
 #if WINDOWS || XBOX
     static class Program
@@ -18,4 +18,3 @@ namespace Tetris
     }
 #endif
 }
-
