@@ -44,6 +44,7 @@ namespace TetrisDemo
         Vector2 SpawnedPieceLocation;
         Vector2 BoardLocation;
         private Vector2 scoreLocation = new Vector2(100, 110);
+        private Vector2 titleScreenLocation = new Vector2(-212, -480);
 
 
 
@@ -153,7 +154,7 @@ namespace TetrisDemo
 
             // TODO: use this.Content to load your game content here
             spriteSheet = Content.Load<Texture2D>(@"TetrisSprites");
-            titleScreen = Content.Load<Texture2D>(@"tetristitle13");
+            titleScreen = Content.Load<Texture2D>(@"tetristitle15");
             pericles14 = Content.Load<SpriteFont>("Pericles14");
 
 
@@ -434,7 +435,7 @@ namespace TetrisDemo
 
             spriteBatch.Begin();
 
-            spriteBatch.Draw(titleScreen, new Rectangle(0, 0, this.Window.ClientBounds.Width, this.Window.ClientBounds.Height), Color.White);
+            spriteBatch.Draw(titleScreen, titleScreenLocation, Color.White);
 
             // Draw the board first
             for (int y = 0; y < BoardHeight; y++)

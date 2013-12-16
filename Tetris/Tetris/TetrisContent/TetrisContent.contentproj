@@ -56,13 +56,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="tetristitle11.png">
-      <Name>tetristitle11</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="gameMusic.wma">
       <Name>gameMusic</Name>
       <Importer>WmaImporter</Importer>
@@ -72,6 +65,13 @@
   <ItemGroup>
     <Compile Include="tetristitle13.png">
       <Name>tetristitle13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="tetristitle15.png">
+      <Name>tetristitle15</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
