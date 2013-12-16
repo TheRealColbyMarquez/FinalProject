@@ -153,7 +153,7 @@ namespace TetrisDemo
 
             // TODO: use this.Content to load your game content here
             spriteSheet = Content.Load<Texture2D>(@"TetrisSprites");
-            titleScreen = Content.Load<Texture2D>(@"tetristitle11");
+            titleScreen = Content.Load<Texture2D>(@"tetristitle13");
             pericles14 = Content.Load<SpriteFont>("Pericles14");
 
 
