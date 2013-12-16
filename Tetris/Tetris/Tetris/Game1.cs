@@ -43,7 +43,7 @@ namespace TetrisDemo
         int[,] SpawnedPiece;
         Vector2 SpawnedPieceLocation;
         Vector2 BoardLocation;
-        private Vector2 scoreLocation = new Vector2(100, 110);
+        private Vector2 scoreLocation = new Vector2(225, 25);
         private Vector2 titleScreenLocation = new Vector2(-212, -480);
 
 
@@ -257,7 +257,7 @@ namespace TetrisDemo
                     if (piece[px, py] != 0)
                     {
                         board[coordx, coordy] = piece[px, py];
-                        score.PlayerScore += 0;
+                        
                     }
 
                 }
@@ -300,6 +300,7 @@ namespace TetrisDemo
                 }
                 if (isComplete)
                 {
+                    score.PlayerScore += 100;
                     // Row y needs to go bye bye
                     // Copy row y-1 to row y
                     for (int yc = y; yc > 0; yc--)
